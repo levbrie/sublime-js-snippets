@@ -44,6 +44,23 @@ function(${1:arguments}) {
 beforeEach(function () {
   ${1:// body...}
 });
+```
+
+### [bei] beforeEach angular inject
+
+```javascript
+beforeEach(inject(function(${1:depsToInject}) {
+  ${2://make injected deps available}
+}));
+```
+
+### [bes] beforeEach synchronous
+
+```javascript
+beforeEach(function () {
+  ${1:// body...}
+});
+```
 
 
 ### [cd] console.dir
