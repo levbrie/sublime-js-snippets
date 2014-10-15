@@ -3,7 +3,7 @@
 	${0:// body...}
 }
 ]]></content>
-    <tabTrigger>afn</tabTrigger>
-    <scope>source.js</scope>
-    <description>Anoynmous Function</description>
+  <tabTrigger>afn</tabTrigger>
+  <scope>source.js</scope>
+  <description>Anoynmous Function</description>
 </snippet>

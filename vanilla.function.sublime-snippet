@@ -3,7 +3,7 @@
 	${0:// body...}
 }
 ]]></content>
-    <tabTrigger>fn</tabTrigger>
-    <scope>source.js</scope>
-    <description>Function</description>
+  <tabTrigger>fn</tabTrigger>
+  <scope>source.js</scope>
+  <description>Function</description>
 </snippet>
