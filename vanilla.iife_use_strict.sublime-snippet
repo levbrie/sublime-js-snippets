@@ -5,7 +5,7 @@
   ${0: // body...}
 })();
 ]]></content>
-  <tabTrigger>iis</tabTrigger>
+  <tabTrigger>iius</tabTrigger>
   <scope>source.js</scope>
   <description>Immediately-invoked function expression</description>
 </snippet>

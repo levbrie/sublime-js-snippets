@@ -31,13 +31,20 @@ Install via package control: http://wbond.net/sublime_packages/community Search 
 Vanilla Snippets
 --------
 
-### [afn] anonymous function 
+### [afn] anonymous function
 
 ```javascript
 function(${1:arguments}) {
 	${0:// body...}
 }
 ```
+
+### [bea] beforeEach async
+
+```javascript
+beforeEach(function () {
+  ${1:// body...}
+});
 
 
 ### [cd] console.dir
@@ -54,14 +61,14 @@ console.error(${1:error})${0}
 ```
 
 
-### [cl] console.log 
+### [cl] console.log
 
 ```javascript
 console.log(${1:msg})${0}
 ```
 
 
-### [cli] console.log with util.inspect 
+### [cli] console.log with util.inspect
 
 ```javascript
 console.log(require('util').inspect(${1:obj}, true, ${2:10}, true))${0}
@@ -75,7 +82,7 @@ console.trace(${1:msg})${0}
 ```
 
 
-### [fn] function 
+### [fn] function
 
 ```javascript
 function ${1:methodName}(${2:arguments}) {
@@ -91,8 +98,16 @@ function ${1:methodName}(${2:arguments}) {
 })();
 ```
 
+### [iius] Immediately-invoked function expression with 'use strict'
 
-### [me] module.exports 
+```javascript
+(function () {
+  'use strict';
+  ${0:// body...}
+})();
+```
+
+### [me] module.exports
 
 ```javascript
 module.exports = ${1}
@@ -108,7 +123,7 @@ Object.keys(${1:obj}).forEach(function(key) {
 ```
 
 
-### [pe] process.exit 
+### [pe] process.exit
 
 ```javascript
 process.exit()
