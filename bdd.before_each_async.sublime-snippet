@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[beforeEach(function () {
+  <content><![CDATA[beforeEach(function (done) {
   ${1:// body...}
 });
 ]]></content>
@@ -7,5 +7,5 @@
   <tabTrigger>bea</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
-  <description>BDD beforeEach synchronous</description>
+  <description>BDD beforeEach asynchronous</description>
 </snippet>
